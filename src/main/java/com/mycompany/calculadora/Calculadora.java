@@ -19,12 +19,12 @@ public class Calculadora extends JFrame implements ActionListener {
         textField = new JTextField();
         textField.setBounds(30, 40, 230, 30);
         add(textField);
-
+// se agrega mas teclado
         String[] buttonLabels = {
-            "7", "8", "9", 
-            "4", "5", "6", 
-            "1", "2", "3", 
-            
+            "7", "8", "9", "/", 
+            "4", "5", "6", "*", 
+            "1", "2", "3", "-", 
+            "0", ".", "=", "+"
         };
 
         int x = 30, y = 80;
