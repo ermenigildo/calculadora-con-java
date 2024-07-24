@@ -4,14 +4,14 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Calculadora extends JFrame implements ActionListener {
-    private JTextField textField;
+    private final JTextField textField;
     private double firstNumber = 0;
     private double secondNumber = 0;
     private double result = 0;
     private String operator = "";
 
     public Calculadora() {
-        setTitle("Calculadora Simple");
+        setTitle("Calculadora Ermenigildo");
         setSize(300, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
@@ -25,6 +25,7 @@ public class Calculadora extends JFrame implements ActionListener {
             "4", "5", "6", "*", 
             "1", "2", "3", "-", 
             "0", ".", "=", "+"
+                
         };
 
         int x = 30, y = 80;
